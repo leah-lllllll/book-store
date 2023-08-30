@@ -1,0 +1,154 @@
+#banner{
+    width:810px;
+    height:270px;
+    position: relative;
+    overflow: hidden;
+    left:250px;
+}
+#photo{
+    width:4050px;
+    height:270px;
+    animation: switch 10s ease-out infinite;
+}
+#photo img{
+    float: left;
+    width:810px;
+    height:270px;
+}
+@keyframes switch {
+	0%, 20% {margin-left: 0;}
+	21%, 40% {margin-left: -850px;}
+	41%, 60% {margin-left: -1620px;}
+    61%,80%{margin-left:-2430px}
+    81%,100%{margin-left:-3240px} 
+}
+#adver{
+    width:1150px;
+    height:107px;
+    margin-top: 8px;
+    position: relative;
+    left:250px;
+}
+#adver table img{
+    width:404px;
+    height:35px;
+    margin: 0px;
+}
+#gallery{
+    background-color: #fcf9f9;
+    height:1100px;
+    margin: 0 250px;
+    width: 820px;
+    margin-top: 30px;
+    border-bottom: 1px solid #ccc;
+}
+#gallery p{
+    /* width:810px; */
+    height: 22px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 20px;
+    padding:10px 0px 10px 5px;
+
+}
+#gallery ul{
+    width:810px;
+    text-align: justify;
+    list-style: none;
+}
+#gallery ul li{
+    width:140px;
+    height:210px;
+    position: relative;
+    float: left;
+    margin-bottom: 35px;
+    margin-right: 20px;
+}
+#gallery span{
+    display:block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;/*用省略号替代多余文字*/
+}
+.hlimg{
+    height:150px;
+}
+.hlimg img{
+    width:100%;
+}
+.title{
+    font-size: 15px;
+}
+.writer{
+    font-size: 8px;
+    color: rgb(114, 114, 112);
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+.price{
+    font-size: 16px;
+    color: rgb(230, 152, 64);
+}
+#gallery2{
+    background-color: #fcf9f9;
+    height:1140px;
+    margin: 0 250px;
+    width: 820px;
+    margin-top: 50px;
+    border-bottom: 1px solid #ccc;
+}
+#gallery2 p{
+    /* width:810px; */
+    height: 22px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 20px;
+    padding:10px 0px 10px 5px;
+
+}
+#gallery2 ul{
+    width:810px;
+    text-align: justify;
+    list-style: none;
+}
+#gallery2 ul li{
+    width:140px;
+    height:220px;
+    position: relative;
+    float: left;
+    margin-bottom: 35px;
+    margin-right: 20px;
+}
+#gallery2 span{
+    display:block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;/*用省略号替代多余文字*/
+}
+.hlimg{
+    height:150px;
+}
+.hlimg img{
+    width:100%;
+}
+.title{
+    font-size: 15px;
+}
+.writer{
+    font-size: 8px;
+    color: rgb(114, 114, 112);
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+.price{
+    font-size: 16px;
+    color: rgb(230, 152, 64);
+}
+#footer{
+    width:100%;
+    height:60px;
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+    border-top: #ccc 2px;
+}

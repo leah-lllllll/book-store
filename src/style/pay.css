@@ -1,0 +1,14 @@
+#logo img{
+    width:18%;
+    margin-left: 230px;
+    float: left;
+    position: relative;
+    top: 20px;
+}
+#img-div{
+    top: 10px;
+}
+.info-main img{
+    max-width: 50px;
+    max-height:50px;
+}

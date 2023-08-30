@@ -1,0 +1,158 @@
+/* 样式文件名：init.css
+应用：登录注册页面
+应用对象：init.vue
+ */
+ #head{
+    width:100%;
+    height:36px;
+    background: #8c222c;
+    float: left;
+}
+#head-left{
+    width:140px;
+    left: 100px;
+    position:absolute;
+    line-height: 36px;
+    font-size: 14px;
+    color: #e2c8ca;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+#head-right{
+    width:100px;
+    right:100px;
+    font-size: 16px;
+    position: absolute;
+    line-height: 36px;
+    z-index: 1;
+}
+#head-right ul li{
+    height:100%;
+    width:95px;
+    list-style: none;
+    float: left;
+    display: inline;
+    text-align: center;
+}
+#head-right ul li a{
+    color: #e2d5d6;
+    text-decoration: none;
+    display: block;
+}
+#logo{
+    height:130px;
+    background: #FFF2CC;
+}
+#logo img{
+    width:18%;
+    margin-left: 200px;
+    float: left;
+    position: relative;
+    top: 18px;
+}
+ #main{
+     width:100%;
+     height:530px;
+     text-align: center;
+     background-color:rgb(253, 252, 247);
+     padding: 0px;
+    }
+ #w{
+     width:897px;
+     height:100%;
+     margin:0 auto;
+    } 
+ #loginimg{
+     float:left;
+     position:relative;
+     top: 70px;
+    }
+ #loginimg img{
+     width:400px;
+     padding: 0px 50px;
+    }
+ #view{
+     width:389px;
+     height:340px;
+     position:relative;
+     float:left;
+     top:95px;
+     border: 3px solid rgba(137,153,169,.2);
+     border-radius: 19px;
+     background-color: rgb(253, 253, 253);
+    }/*border-radius设置圆角*/
+ #title{
+     height:24px;
+     padding: 28px 37px;
+    }
+#title a{
+    font:bold 24px 行楷;
+    text-decoration: none;
+    color:rgb(167, 197, 221);
+}/*设置字体大小样式、取消下划线*/
+#title a:hover{
+    color: rgb(62, 116, 233);
+}
+#title_left{
+    width:155px;
+    border-right: 1px solid #ccc;
+    text-align: center;float: left;
+}
+#title_right{
+    width:155px;
+    float: left;
+    text-align: center;
+}
+#title a.router-link-exact-active {
+    color:rgb(62, 116, 233);
+  }
+#form{
+    width:335px;
+    height:230px;
+    position:relative;
+    float:left;
+    padding:0px 25px;
+}
+#form input{
+    width:208px;
+    height:23px;
+    margin: 10px;
+}
+
+span{
+    display: inline-block;
+    text-align: center;
+    width:66px;
+    height:23px;
+}
+#form button{
+    width:218px;
+    height:36px;
+    border-radius: 3px;
+    line-height: 34px;
+    font-size: 16px;
+    margin:10px 10px 10px 77px;
+    background-color: rgb(147, 181, 224);
+    color: rgb(255, 255, 255);
+    border-color:rgb(162, 194, 235) ;
+}
+.ftimg{
+    position: relative;
+    top:0px;
+    display: block;
+    max-width: 70%;/* 控制图片大小 */
+    max-height:80px;
+    min-width: 30%;
+    min-height: 80px;}
+#footer{
+    width:100%;
+    height:32px;
+    font-size: 10px;
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+    vertical-align: middle;
+    position: absolute;
+    top:678px;
+}

@@ -1,0 +1,144 @@
+#head{
+    width:100%;
+    height:36px;
+    background: #8c222c;
+    float: left;
+}
+#head-left{
+    width:140px;
+    left: 100px;
+    position:absolute;
+    line-height: 36px;
+    font-size: 14px;
+    color: #e2d5d6;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+.head-right{
+    width:150px;
+    right:100px;
+    font-size: 14px;
+    position: absolute;
+    line-height: 36px;
+    z-index: 1;
+}
+.head-right ul li{
+    height:100%;
+    list-style: none;
+    float: left;
+    display: inline;
+    text-align: center;
+    color: #e2d5d6;
+}
+#a{
+    color: #e2d5d6;
+    font-size: 13px;
+    text-decoration: none;
+    padding-left: 5px;
+}
+#a:hover{
+    color: #ffffff;
+}
+#logo{
+    height:130px;
+    background: #FFF2CC;
+}
+#logo img{
+    width:18%;
+    margin-left: 230px;
+    float: left;
+    position: relative;
+    top: 20px;
+}
+#logo form{
+    height:35px;
+    width:588px;
+    font-size: 12px;
+    right: 280px;
+    position: absolute;
+    top:65px;
+}
+#searchinput{
+    height:32px;
+    width:486px;
+    border:none;
+    line-height: 14px;
+    border: 2px solid #8c222c;
+    margin: 0px;
+    position: relative;
+    float: left;
+}
+#formbutton{
+    width:76px;
+    height:37px;
+    margin-right: 0px;
+    color: #fff;
+    background-color: #8c222c;
+    float: left;
+}
+#left{
+    width:150px;
+    margin-left:250px;
+    font-size: 18px;
+    line-height: 36px;
+    position: absolute;
+   
+}
+#location_table{
+    width:1150px;
+    height:auto;
+    margin-top: 40px;
+    position: relative;
+    left:250px;
+    font-size: 16px;
+    background: '#e82323',
+}
+#order_left{
+    width:150px;
+    margin-top: 15px;
+    margin-left:250px;
+    font-size: 18px;
+    line-height: 36px;
+    position: absolute;
+   
+}
+#order_table{
+    width:1150px;
+    margin-top: 50px;
+    height:auto;
+    position: relative;
+    left:250px;
+    font-size: 16px;
+    background: '#e82323',
+}
+#urls_left{
+    width:150px;
+    margin-left:250px;
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 36px;
+    position: absolute;
+   
+}
+#urls_table{
+    width:1150px;
+    height:auto;
+    margin-top: 50px;
+    position: relative;
+    left:250px;
+    font-size: 16px;
+    background: '#e82323',
+}
+
+#footer{
+    width:100%;
+    height:32px;
+    font-size: 10px;
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+    vertical-align: middle;
+    position: absolute;
+    top:3500px;
+}
